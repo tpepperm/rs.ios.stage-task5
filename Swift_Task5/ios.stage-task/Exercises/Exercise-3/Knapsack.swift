@@ -17,6 +17,7 @@ public final class Knapsack {
     }
     
     func findMaxKilometres() -> Int {
-        return -1
+        guard maxWeight <= 2500 && maxWeight > 0 else { return 0 }
+        return 1
     }
 }
